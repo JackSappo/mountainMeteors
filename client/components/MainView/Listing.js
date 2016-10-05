@@ -46,6 +46,7 @@ class Listing extends React.Component{
   //When props are passed in, filters listings.
     //Needed because the props are passed to this component AFTER it renders
   componentWillReceiveProps(props) {
+    // debugger;
     this.filterListings(props);
   }
 
@@ -58,6 +59,7 @@ class Listing extends React.Component{
 
   toggleArchiveListing(listing) {
     console.log('toggling', listing.id);
+    // debugger;
     let toggledVal = listing.archived === 0 ? 1 : 0;
     this.props.putListing(listing.id, {archived: toggledVal});
   }
