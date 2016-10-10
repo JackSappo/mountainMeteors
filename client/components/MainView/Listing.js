@@ -165,6 +165,7 @@ class Listing extends React.Component{
       <div>
         <Button bsStyle="info" bsSize="small" onClick={this.toggleArchiveView}>Archived</Button>
         <AddListingsModal modalType="add" />
+        <Link to="/viewphotos">View Photos</Link>
         {this.state.listingsFiltered.map((listing, i) =>
           <ListingEntry key={i} listing={listing} />
         )}

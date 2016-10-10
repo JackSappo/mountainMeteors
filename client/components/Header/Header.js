@@ -69,7 +69,7 @@ class Header extends React.Component {
         {this.renderLinks()}
       </ul>
       <h1 className="title">
-        <Link to="/">seekPad</Link>
+        <Link to="/"></Link>
       </h1>
       {this.props.authenticated ?
         <Button

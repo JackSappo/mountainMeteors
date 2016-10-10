@@ -1,3 +1,9 @@
+#splash {
+ background: url("../../uploads/splash.jpg");
+ background-repeat: no-repeat;
+ background-size:cover;
+}
+
 h1.title {
   display:inline-block;
 }
@@ -21,10 +27,17 @@ h1.title {
 
 #rightcol {
   background-color: #ffffff;
-  /*overflowY: 'auto';*/
+  overflowY: scroll;
   padding: 0;
   height: 450px;
+  /*max-height: 450px;*/
   padding-bottom: '50px';
+}
+
+.listings {
+  overflowY: scroll;
+  height: 450px;
+  max-height: 450px;
 }
 
 #bodyrow {
@@ -1505,3 +1518,7 @@ th {
     .image-gallery-index {
       font-size: .8em;
       padding: 5px 10px; } }
+
+.welcomeButton {
+  float: right;
+  margin-bottom: 10px; }
