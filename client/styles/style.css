@@ -4,6 +4,16 @@
  background-size:cover;
 }
 
+body {
+  overflowY: 'hidden';
+  height: 100vh;
+}
+
+#root {
+  overflowY: 'auto';
+  height: 100%;
+}
+
 h1.title {
   display:inline-block;
 }
@@ -19,7 +29,7 @@ h1.title {
 
 #leftcol {
   background-color: #33ccff;
-  height: 450px;
+  /*height: 450px;*/
   padding: 0;
   margin: 0;
   overflow: 'hidden';
@@ -29,14 +39,14 @@ h1.title {
   background-color: #ffffff;
   overflowY: scroll;
   padding: 0;
-  height: 450px;
+  /*height: 450px;*/
   /*max-height: 450px;*/
   padding-bottom: '50px';
 }
 
 .listings {
   overflowY: scroll;
-  height: 450px;
+  /*height: 450px;*/
   max-height: 450px;
 }
 

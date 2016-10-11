@@ -38,7 +38,7 @@ class Main extends React.Component{
 
   render() {
     return (
-      <div>
+      <div style={{overflowY: 'hidden'}}>
         <Grid fluid={ true }>
           <Row id="header">
             <Header />
