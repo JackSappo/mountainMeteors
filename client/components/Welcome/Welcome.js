@@ -19,7 +19,7 @@ class Welcome extends React.Component {
 
   render() {
     return (
-      <div>
+      <div id="background-video-container">
         <video id="background-video" poster="https://dl.dropboxusercontent.com/s/nzmafm1x7d5gh2r/GettyImages-597661487.jpg?dl=0 " autoPlay loop>
           <source src="http://dl.dropboxusercontent.com/s/gamzhby2es6n5zr/FlatironVidA.mp4?dl=0" type="video/mp4" />
         </video>

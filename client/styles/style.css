@@ -89,6 +89,13 @@ label {
   filter: blur(5px);*/
 }
 
+/*#background-video-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+}*/
+
 #background-video {
   position: fixed;
   top: 50%;
@@ -98,8 +105,17 @@ label {
   width: auto;
   height: auto;
   z-index: -100;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -58%);
 }
+
+
+
+/*#background-video {
+  position: relative;
+  height: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}*/
 
 #splash-title {
   font-family: proxima-nova, sans-serif;
@@ -736,4 +752,3 @@ th {
 .geosuggest-item--active:focus {
   background: #ccc;
 }
-
